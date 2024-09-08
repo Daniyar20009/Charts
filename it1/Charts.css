@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E1E1E;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.main-search {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-right: 2px solid #575757;
+}
+
+.main-search--logo {
+    color: #5dff4f;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-search--heading {
+    margin: 20px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 220px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    width: 722px;
+}
+
+/* Стиль для поисковой строки */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background-color: #1E1E1E;
+    color: white;
+    margin-right: 10px;
+    width: 400px;
+    height: 30px;
+}
+
+.search-button {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
+    color: white;
+    border: 1px solid #1E1E1E;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+/* Контейнер для песен */
+.song-list {
+    width: 722px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000;
+    height: 70px;
+    border-bottom: 1px solid #444;
+}
+
+.song-item:last-child {
+    border-bottom: none;
+}
+
+.rank {
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+}
+
+.song-photo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.song-details {
+    flex: 1;
+}
+
+.song-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.artist-name {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.song-rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
